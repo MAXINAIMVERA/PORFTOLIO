@@ -1,0 +1,40 @@
+
+section{
+    background-color: #1D1D1D;
+    margin: 0;
+    padding-bottom: 5em;
+}
+
+img{
+    width: 7em;
+    background-color: #1D1D1D
+}
+
+.about-h3{
+    margin-top: 5em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    background-color: #1D1D1D;
+    color: #eff0f3;
+    font-size: 3em;
+    text-align: center;
+}
+
+.about{
+    background-color: #1D1D1D;
+}
+
+.technologies-primary{
+    background-color: #1D1D1D;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10em;
+}
+
+.technologies-secondary{
+    background-color: #1D1D1D;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5em 20em;
+}

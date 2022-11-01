@@ -1,0 +1,10 @@
+@font-face {
+    font-family: major;
+    src: url(./assets/major.ttf);
+}
+* {
+    background-color: #eff0f3; 
+    color: #16161a;
+    font-family: major;
+    margin: 0;
+}
