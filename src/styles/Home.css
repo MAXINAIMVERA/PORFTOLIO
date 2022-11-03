@@ -1,16 +1,9 @@
 main{
     display: flex;
     justify-content: space-between;
-    margin: 8em 5em;
+    margin: 10% 5%;
 }
 
-h2{
-    text-align: center;
-}
-
-h4{
-    text-align: center;
-}
 
 span{
     color: #CFA765;
@@ -21,5 +14,5 @@ span{
 } 
 
 .home-main{
-    font-size: 3em;
+    font-size: 3.5em;
 }

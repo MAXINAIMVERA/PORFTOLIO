@@ -21,23 +21,23 @@ const AboutMe = () => {
                 <div className='about'>
                     <h3 className='about-h3'>These are the technologies I currently handle... <br />
                     If what you are looking for is not here,
-                    I am sure I can learn it soon!</h3>
+                    I am sure <span id='learn'>I can learn it soon!</span></h3>
                 </div>
                 <div className='technologies-primary'>
-                    <img src={htmlLogo} alt="html5" />
-                    <img src={cssLogo} alt="html5" />
-                    <img src={jsLogo} alt="html5" />
-                    <img src={reactLogo} alt="html5" />
-                    <img src={mysqlLogo} alt="html5" />
-                    <img src={nodeLogo} alt="html5" />
+                    <img src={htmlLogo} alt="html5" className='technology-img'/>
+                    <img src={cssLogo} alt="html5" className='technology-img'/>
+                    <img src={jsLogo} alt="html5" className='technology-img'/>
+                    <img src={reactLogo} alt="html5" className='technology-img'/>
+                    <img src={mysqlLogo} alt="html5" className='technology-img'/>
+                    <img src={nodeLogo} alt="html5" className='technology-img'/>
                 </div>
                 <div className='technologies-secondary'>
-                    <img src={bsLogo} alt="html5" />
-                    <img src={fbLogo} alt="html5" />
-                    <img src={gitLogo} alt="html5" />
-                    <img src={githubLogo} alt="html5" />
-                    <img src={npmLogo} alt="html5" />
-                    <img src={exLogo} alt="html5" />
+                    <img src={bsLogo} alt="html5" className='technology-img'/>
+                    <img src={fbLogo} alt="html5" className='technology-img'/>
+                    <img src={gitLogo} alt="html5" className='technology-img'/>
+                    <img src={githubLogo} alt="html5" className='technology-img'/>
+                    <img src={npmLogo} alt="html5" className='technology-img'/>
+                    <img src={exLogo} alt="html5" className='technology-img'/>
                 </div>
         </section>
     )

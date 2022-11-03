@@ -1,7 +1,23 @@
+import YardSale from '../assets/YardSale.png'
+import CryptoCheckers from '../assets/CryptoCheckers.png'
+import MegaSumo from '../assets/MegaSumo.png'
 export const myProjects = [
     {
         id: 1,
         title: 'YardSale E-shop',
-        img: './'
+        img: YardSale,
+        text: 'A React E-Shop, with a functional cart and differents routes'
+    },
+    {
+        id: 2,
+        title: 'CryptoCheckers',
+        img: CryptoCheckers,
+        text: 'A Crypto current value SPA, consuming the Coingecko API'
+    },
+    {
+        id: 3,
+        title: 'MegaSumo',
+        img: MegaSumo,
+        text: 'Prototype for a NFT page, I used the MORALIS Web3 API for the Metamask connection'
     }
 ]
