@@ -8,6 +8,7 @@
     font-size: 18px;
     background: #fff;
     height: 200px;
+    cursor: grab;
   }
   #container-projects{
     display: flex;
@@ -43,4 +44,20 @@
 
   .projects-header h2 {
     color: black;
+  }
+
+  .view-page-btn{
+     margin-bottom: 2em;
+     padding: 1em 2em;
+     background-color: rgb(79, 125, 218);
+     border-radius: 1em;
+     color: white;
+     font-weight: 900;  
+     border: none;
+  }
+  .view-page-btn:hover{
+    cursor: pointer;
+    color: black;
+    box-shadow: 3px 3px;
+    transition: .5s;
   }

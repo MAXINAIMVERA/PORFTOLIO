@@ -34,6 +34,7 @@ const Projects = () => {
                                             <h2 className='card-title'>{project.title}</h2>
                                             <img src={project.img} alt="" className='card-img'/>
                                             <h3 className='card-text'>{project.text}</h3>  
+                                            <a href=""><button className='view-page-btn'>View Page!</button></a>
                                         </div>       
                                     </div>                    
                                 </SwiperSlide>                                                  

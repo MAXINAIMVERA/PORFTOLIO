@@ -1,6 +1,11 @@
 nav {
-    margin: 0 auto;
+    display: flex;
+    justify-content: end;
     background: #fff;
+  }
+
+  #logo{
+    background-color: #eff0f3;
   }
 
   nav ul {
@@ -71,4 +76,10 @@ nav {
     -webkit-animation: fill 1s forwards;
     -moz-animation: fill 1s forwards;
     opacity: 1;
+  }
+
+  #container-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 2%;
   }
