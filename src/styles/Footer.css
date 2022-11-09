@@ -1,6 +1,8 @@
 .form-container{
     padding-left: 5%;
     background-color: #1D1D1D;
+    display: flex;
+    justify-content: space-between;
 }
 .email-submit{
     display: flex;
@@ -38,4 +40,39 @@
     margin-bottom: 1%;
     background-color: #1D1D1D;
     color: white;
+}
+.container-contacts{
+    background-color: #1D1D1D;
+    display: flex;
+    align-items: center;
+    padding-right: 5%;
+}
+.container-contacts a{
+    background-color: #1D1D1D;
+    margin: 0em 1em;
+}
+.container-contacts a img{
+    width: 5em;
+}
+.container-contacts a button{
+    border: none;
+    padding: .6em;
+    background-color: white;
+    border-radius: .5em;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+form{
+    width: 100%;
+}
+
+.container-message{
+    background-color: #1D1D1D;
+    position: relative;
+}
+.container-message p{
+    background-color: #1D1D1D;
+    color: white;
+    text-align: center;
 }

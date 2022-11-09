@@ -11,10 +11,9 @@ const Header = () => {
             </div>
             <nav className='stroke'>
                 <ul>
-                    <li><a href="http://localhost:3000">Home</a></li>
-                    <li><a href="http://localhost:3000">About Me</a></li>
-                    <li><a href="http://localhost:3000">Projects</a></li>
-                    <li><a href="http://localhost:3000">Contact</a></li>
+                    <li><a href="header">Home</a></li>
+                    <li><a href="#section">About Me</a></li>
+                    <li><a href="#container-projects">Projects & Contact</a></li>
                 </ul>
             </nav>
         </div>

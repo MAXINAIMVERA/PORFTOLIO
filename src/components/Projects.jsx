@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../styles/Projects.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from "swiper";
@@ -6,13 +6,18 @@ import { myProjects } from '../assets/projects'
 import 'swiper/css';
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import slidimg from '../assets/react-logo.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
 
 const Projects = () => {
 
+    useEffect(()=>{
+        AOS.init({duration: 3000})
+    },[])
+
     return(
         <div id='container-projects'>
-            <div className='projects-header'>
+            <div className='projects-header' data-aos="fade-right">
                 <h2>SOME PROJECTS</h2>
             </div>
             <Swiper
@@ -25,6 +30,7 @@ const Projects = () => {
                 navigation={true}
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
+                data-aos="fade-left"
                 >   <div className='container'>
                     {myProjects.map(project => (                           
                                 <SwiperSlide key={project.id} className='slide'>

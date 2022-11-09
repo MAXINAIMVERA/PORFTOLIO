@@ -7,4 +7,5 @@
     color: #16161a;
     font-family: major;
     margin: 0;
+    scroll-behavior: smooth;
 }
