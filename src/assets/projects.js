@@ -1,6 +1,7 @@
 import YardSale from '../assets/YardSale.png'
 import CryptoCheckers from '../assets/CryptoCheckers.png'
 import MegaSumo from '../assets/MegaSumo.png'
+import weatherApp from '../assets/weatherApp.png'
 export const myProjects = [
     {
         id: 1,
@@ -19,5 +20,11 @@ export const myProjects = [
         title: 'MegaSumo',
         img: MegaSumo,
         text: 'Prototype for a NFT page, I used the MORALIS Web3 API for the Metamask connection'
+    },
+    {
+        id: 4,
+        title: 'Weather App',
+        img: weatherApp,
+        text: 'A weather app, constructed with React and the OpenWeather API'
     }
 ]
