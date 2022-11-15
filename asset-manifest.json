@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PORTFOLIO/static/css/main.f1db1359.css",
-    "main.js": "/PORTFOLIO/static/js/main.9797ac2d.js",
+    "main.js": "/PORTFOLIO/static/js/main.83fdb670.js",
     "static/media/MegaSumo.png": "/PORTFOLIO/static/media/MegaSumo.b6466eff1b1d019d262b.png",
     "static/media/YardSale.png": "/PORTFOLIO/static/media/YardSale.1412b2e0b9e268542ada.png",
     "static/media/mysql-logo.png": "/PORTFOLIO/static/media/mysql-logo.6f962be1f52bd42898d1.png",
@@ -22,10 +22,10 @@
     "static/media/npm-logo.png": "/PORTFOLIO/static/media/npm-logo.5904c46fdce9a3192c3b.png",
     "index.html": "/PORTFOLIO/index.html",
     "main.f1db1359.css.map": "/PORTFOLIO/static/css/main.f1db1359.css.map",
-    "main.9797ac2d.js.map": "/PORTFOLIO/static/js/main.9797ac2d.js.map"
+    "main.83fdb670.js.map": "/PORTFOLIO/static/js/main.83fdb670.js.map"
   },
   "entrypoints": [
     "static/css/main.f1db1359.css",
-    "static/js/main.9797ac2d.js"
+    "static/js/main.83fdb670.js"
   ]
 }
